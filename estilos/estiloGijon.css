@@ -1,0 +1,179 @@
+/* CSS estilo para web Gijón y la laboral  */
+/* fuente Montserrat*/
+
+
+body{   
+  margin: 30px;
+  background-color:#ffffff;
+  color: black;
+}
+
+header {
+  font-family:"Montserrat",sans-serif ;
+  background-color:#e6e6e6;
+  border: 10px #ff0000 solid;  
+  color: black;
+}
+
+main{
+  font-family:"Montserrat", sans-serif;
+  background-color: #ffffff;
+  color:black;
+}
+
+footer {
+  padding:3px;
+  font-family:"Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  color: rgb(117, 117, 117);
+  background-color: lightgray;
+}
+
+
+em{
+  color:#ff0000 ;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  background: #ff0000;
+  letter-spacing: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 500;
+  color:#000000;
+  text-align:left;
+  text-indent: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color:rgb(211, 211, 211); 
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 500;
+  color:#000000;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h4{
+  font-size: 26px;
+  font-weight: 400;
+  color:#000000;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h5{
+  font-size: 21px;
+  font-weight: 400;
+  color:#000000;
+  text-align: left;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin:20px;
+  line-height: 1.5rem;
+  color:#000000;
+}
+
+div {
+  border:#ff0000 6px solid ;
+  background-color: #f4f4f4;
+}
+
+
+
+ul{
+    list-style-type: disc;    
+}
+
+li{
+  margin-left: 20px;
+}
+
+p.fig_centrado {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+}
+
+section {
+    float:left;
+    overflow: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+img.izq {
+  
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+img.der {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+div.clima{
+  border:none ;
+}
+
+div.clima table {
+  font-size: 16px;
+  font-weight: 300;
+
+  border: black 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+div.clima caption {
+  font-style:oblique;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+div.clima th {
+  text-align: center;
+}
+
+div.clima td {
+  height: 3em;
+  padding-left: 5px;
+  text-align: center;
+}
+
+colgroup.fondoBlanco {
+  font-size: 20px;
+  background-color: white;
+}
+
+col.fondoBlanco {
+  background-color: white;
+}
+
+
+
